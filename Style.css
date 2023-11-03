@@ -1,0 +1,130 @@
+/* CSS styles for the webpage */
+body {
+    font-family: "Arial, sans-serif";
+    font-size: medium;
+    background-color: White;
+}
+
+header {
+    background-color: #0077b5;
+    color: #fff;
+    padding: 5px 0;
+    text-align: center;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+}
+
+.header-content2 {
+    display: flex;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 10px;
+}
+
+button {
+    background-color: #0077b5;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #00517a;
+}
+
+#cart {
+    display: flex;
+    align-items: center;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+.product-box {
+    width: 300px;
+    padding: 20px;
+    border: 5px solid #ddd;
+    margin: 10px;
+    text-align: center;
+}
+
+.product-box2 {
+    display: block	
+    width: 100px;
+    padding: 20px;
+    border: 5px solid #ddd;
+    margin: 10px;
+    text-align: center;
+}
+
+.product-box img {
+    max-width: 100%;
+    height: auto;
+}
+
+.product-box2 img {
+    max-width: 50%;
+    height: auto;
+}
+
+
+/* CSS to style the WhatsApp logo and position it */
+.whatsapp-link {
+    position: fixed;
+    bottom: 20px; /* Adjust the distance from the bottom as needed */
+    right: 20px; /* Adjust the distance from the right as needed */
+    z-index: 999; /* Ensures the logo appears on top of other content */
+}
+
+.whatsapp-link img {
+    width: 60px; /* Adjust the width of the logo as needed */
+    height: auto; /* Maintain the aspect ratio */
+    cursor: pointer; /* Show a hand cursor on hover for a clickable link */
+}
+
+/* Style for the main content container */
+        .content {
+            flex: 1; /* Allow content to expand and push footer down */
+        }
+
+        /* Style for the footer container */
+        .footer {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+
+        /* Style for the links in the footer */
+        .footer a {
+            color: white;
+            text-decoration: none;
+        }
+
+        /* Style for the footer links on hover */
+        .footer a:hover {
+            text-decoration: underline;
+        }
+
+        /* Style for the container that holds content and footer */
+        .wrapper {
+            display: flex;
+            flex-direction: column;
+            min-height: 25vh; /* Ensure the wrapper takes the full viewport height */
+        }
+
+        
